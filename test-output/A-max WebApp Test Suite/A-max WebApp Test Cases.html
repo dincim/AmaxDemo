@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  A-max WebApp Test Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>A-max WebApp Test Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 22 12:47:50 CDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>154 seconds (154659 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.amaxweb.testcases.FindAnOfficePageTest.verifyFindAnOfficeTitleTest()'><b>verifyFindAnOfficeTitleTest</b><br>Test class: com.amaxweb.testcases.FindAnOfficePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.amaxweb.testcases.FindAnOfficePageTest@732c2a62</td></tr>
+<tr>
+<td title='com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest.verifyLogInTest()'><b>verifyLogInTest</b><br>Test class: com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest<br>Parameters: http://powerbi.amaxinsurance.com/, mdinc@amaxinsurance.com, mdinc2020!</td>
+<td></td>
+<td>15</td>
+<td>com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@1b1426f4</td></tr>
+<tr>
+<td title='com.amaxweb.testcases.MotorcycleQuotePageTest.verifyMotorcyclePageTitleTest()'><b>verifyMotorcyclePageTitleTest</b><br>Test class: com.amaxweb.testcases.MotorcycleQuotePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.amaxweb.testcases.MotorcycleQuotePageTest@63a12c68</td></tr>
+<tr>
+<td title='com.amaxweb.testcases.ReferralPageTest.homePageTitleTest()'><b>homePageTitleTest</b><br>Test class: com.amaxweb.testcases.ReferralPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.amaxweb.testcases.ReferralPageTest@28f3b248</td></tr>
+<tr>
+<td title='com.licensing.amaxinsurance.testcases.VerifyLoginsTests.loginHRTest()'><b>loginHRTest</b><br>Test class: com.licensing.amaxinsurance.testcases.VerifyLoginsTests</td>
+<td></td>
+<td>4</td>
+<td>com.licensing.amaxinsurance.testcases.VerifyLoginsTests@78123e82</td></tr>
+<tr>
+<td title='com.licensing.amaxinsurance.testcases.VerifyLoginsTests.loginSystemAdminTest()'><b>loginSystemAdminTest</b><br>Test class: com.licensing.amaxinsurance.testcases.VerifyLoginsTests</td>
+<td></td>
+<td>4</td>
+<td>com.licensing.amaxinsurance.testcases.VerifyLoginsTests@78123e82</td></tr>
+<tr>
+<td title='com.licensing.amaxinsurance.testcases.VerifyLoginsTests.loginAgentTest()'><b>loginAgentTest</b><br>Test class: com.licensing.amaxinsurance.testcases.VerifyLoginsTests</td>
+<td></td>
+<td>4</td>
+<td>com.licensing.amaxinsurance.testcases.VerifyLoginsTests@78123e82</td></tr>
+<tr>
+<td title='com.licensing.amaxinsurance.testcases.VerifyLoginsTests.loginLDTest()'><b>loginLDTest</b><br>Test class: com.licensing.amaxinsurance.testcases.VerifyLoginsTests</td>
+<td></td>
+<td>4</td>
+<td>com.licensing.amaxinsurance.testcases.VerifyLoginsTests@78123e82</td></tr>
+<tr>
+<td title='com.quote.amaxinsurance.testcases.GetQuoteManuallyTest.getQuoteManuallyTest()'><b>getQuoteManuallyTest</b><br>Test class: com.quote.amaxinsurance.testcases.GetQuoteManuallyTest</td>
+<td></td>
+<td>31</td>
+<td>com.quote.amaxinsurance.testcases.GetQuoteManuallyTest@76c3e77a</td></tr>
+<tr>
+<td title='com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest.getQuoteWithDriversLiceenseTest()'><b>getQuoteWithDriversLiceenseTest</b><br>Test class: com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest</td>
+<td></td>
+<td>34</td>
+<td>com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest@57d7f8ca</td></tr>
+<tr>
+<td title='com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest.loginUnderWritingPortalTest()'><b>loginUnderWritingPortalTest</b><br>Test class: com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest</td>
+<td></td>
+<td>4</td>
+<td>com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@6d4e5011</td></tr>
+<tr>
+<td title='com.amaxweb.testcases.MakeAPaymentPageTest.verifyMakeAPaymentPageTitleTest()'><b>verifyMakeAPaymentPageTitleTest</b><br>Test class: com.amaxweb.testcases.MakeAPaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.amaxweb.testcases.MakeAPaymentPageTest@7e5afaa6</td></tr>
+<tr>
+<td title='com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest.checkUnderWritingPageTitleTest()'><b>checkUnderWritingPageTitleTest</b><br>Test class: com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest</td>
+<td></td>
+<td>0</td>
+<td>com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@6d4e5011</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,120 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 105, Failures: 29, Errors: 0, Skipped: 76, Time elapsed: 0.974 s <<< FAILURE! - in TestSuite
+setUp(com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest)  Time elapsed: 0.613 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\browserdrivers\chromedriver.exe
+	at com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest.setUp(BudgetAndVarianceHomePageTest.java:21)
+
+setUp(com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest.setUp(CareersPageTitleTest.java:21)
+
+setUp(com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest.setUp(FAQsPageTitleTest.java:22)
+
+setUp(com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest.setUp(NewsAndEventsPageTitleTest.java:21)
+
+setUp(com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest.setUp(OurCompanyPageTitleTest.java:21)
+
+setUp(com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest.setUp(BoatsAndWatercraftQuotePageTitleTest.java:21)
+
+setUp(com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest.setUp(CommercialAutoQuotePageTitleTest.java:23)
+
+setUp(com.amaxinsurance.testcases.ContactUsPageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.ContactUsPageTitleTest.setUp(ContactUsPageTitleTest.java:21)
+
+setUp(com.amaxinsurance.testcases.FindAnOfficePageTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.FindAnOfficePageTest.setUp(FindAnOfficePageTest.java:24)
+
+setUp(com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest.setUp(GeneralLiabilityQuotePageTitleTest.java:19)
+
+setUp(com.amaxinsurance.testcases.HomeownersQuotepageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.HomeownersQuotepageTitleTest.setUp(HomeownersQuotepageTitleTest.java:21)
+
+setUp(com.amaxinsurance.testcases.MakeAClaimPageTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.MakeAClaimPageTest.setUp(MakeAClaimPageTest.java:21)
+
+setUp(com.amaxinsurance.testcases.MakeAPaymentPageTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.MakeAPaymentPageTest.setUp(MakeAPaymentPageTest.java:21)
+
+setUp(com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest.setUp(MexicoTouristQuotePageTitleTest.java:19)
+
+setUp(com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest.setUp(MobileHomeQuotePageTitleTest.java:16)
+
+setUp(com.amaxinsurance.testcases.MotorcycleQuotePageTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.MotorcycleQuotePageTest.setUp(MotorcycleQuotePageTest.java:21)
+
+setUp(com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest.setUp(NotaryServicesQuotePageTitleTest.java:17)
+
+setUp(com.amaxinsurance.testcases.ReferralPageTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.ReferralPageTest.setUp(ReferralPageTest.java:19)
+
+setUp(com.amaxinsurance.testcases.RentersQuotePageTitleTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.RentersQuotePageTitleTest.setUp(RentersQuotePageTitleTest.java:17)
+
+setUp(com.amaxinsurance.testcases.RVQuotePageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.RVQuotePageTitleTest.setUp(RVQuotePageTitleTest.java:16)
+
+setUp(com.amaxinsurance.testcases.Sr22QuotePageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.Sr22QuotePageTitleTest.setUp(Sr22QuotePageTitleTest.java:17)
+
+setUp(com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest.setUp(SuretyBondQuotePageTitleTest.java:17)
+
+setUp(com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\browserdrivers\chromedriver.exe
+	at com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest.setUp(UnderwritinPortalLogInTest.java:23)
+
+setUp(com.ilead.amaxinsurance.testcases.AgentLoginPageTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\browserdrivers\chromedriver.exe
+	at com.ilead.amaxinsurance.testcases.AgentLoginPageTest.setUp(AgentLoginPageTest.java:21)
+
+setUp(com.licensing.amaxinsurance.testcases.VerifyLoginsTests)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\browserdrivers\chromedriver.exe
+	at com.licensing.amaxinsurance.testcases.VerifyLoginsTests.setUp(VerifyLoginsTests.java:26)
+
+setUp(com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\browserdrivers\chromedriver.exe
+	at com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest.setUp(MaxBiUpAndRunningTest.java:23)
+
+setUp(com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest.setUp(GetQuoteDriversLicenseInputTest.java:20)
+
+setUp(com.quote.amaxinsurance.testcases.GetQuoteManuallyTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.quote.amaxinsurance.testcases.GetQuoteManuallyTest.setUp(GetQuoteManuallyTest.java:20)
+
+setUp(com.ref.amaxinsurance.winback.testcases.PageTitleTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\browserdrivers\chromedriver.exe
+	at com.ref.amaxinsurance.winback.testcases.PageTitleTest.setUp(PageTitleTest.java:21)
+

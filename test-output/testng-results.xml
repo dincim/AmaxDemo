@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results ignored="1" total="30" passed="29" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-29T09:35:33 CST" name="A-max WebApp Autamated Test Suite" finished-at="2021-11-29T09:41:01 CST" duration-ms="328182">
+    <groups>
+    </groups>
+    <test started-at="2021-11-29T09:35:33 CST" name="A-max WebApp Test Cases" finished-at="2021-11-29T09:41:01 CST" duration-ms="328182">
+      <class name="com.amaxinsurance.testcases.MakeAPaymentPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.MakeAPaymentPageTest@169e6180]" started-at="2021-11-29T09:39:42 CST" name="setUp" finished-at="2021-11-29T09:39:46 CST" duration-ms="3918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMakeAPaymentPageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.MakeAPaymentPageTest@169e6180]" started-at="2021-11-29T09:39:46 CST" name="verifyMakeAPaymentPageTitleTest" finished-at="2021-11-29T09:39:47 CST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMakeAPaymentPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.MakeAPaymentPageTest@169e6180]" started-at="2021-11-29T09:39:47 CST" name="tearDown" finished-at="2021-11-29T09:39:47 CST" duration-ms="666" status="PASS">
+=======
+<testng-results ignored="1" total="36" passed="35" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-20T11:46:19 CDT" name="A-max WebApp Autamated Test Suite" finished-at="2021-08-20T11:52:07 CDT" duration-ms="348735">
+    <groups>
+    </groups>
+    <test started-at="2021-08-20T11:46:19 CDT" name="A-max WebApp Test Cases" finished-at="2021-08-20T11:52:07 CDT" duration-ms="348735">
+      <class name="com.amaxinsurance.testcases.MakeAPaymentPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.MakeAPaymentPageTest@20ccf40b]" started-at="2021-08-20T11:50:49 CDT" name="setUp" finished-at="2021-08-20T11:50:52 CDT" duration-ms="2795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMakeAPaymentPageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.MakeAPaymentPageTest@20ccf40b]" started-at="2021-08-20T11:50:52 CDT" name="verifyMakeAPaymentPageTitleTest" finished-at="2021-08-20T11:50:53 CDT" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMakeAPaymentPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.MakeAPaymentPageTest@20ccf40b]" started-at="2021-08-20T11:50:53 CDT" name="tearDown" finished-at="2021-08-20T11:50:54 CDT" duration-ms="774" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.MakeAPaymentPageTest -->
+      <class name="com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest@a530d0a]" started-at="2021-11-29T09:38:51 CST" name="setUp" finished-at="2021-11-29T09:38:55 CST" duration-ms="3838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNewsAndEventsPageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest@a530d0a]" started-at="2021-11-29T09:38:55 CST" name="verifyNewsAndEventsPageTitleTest" finished-at="2021-11-29T09:38:59 CST" duration-ms="4269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewsAndEventsPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest@a530d0a]" started-at="2021-11-29T09:38:59 CST" name="tearDown" finished-at="2021-11-29T09:39:00 CST" duration-ms="650" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest@48f278eb]" started-at="2021-08-20T11:49:56 CDT" name="setUp" finished-at="2021-08-20T11:49:58 CDT" duration-ms="2635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNewsAndEventsPageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest@48f278eb]" started-at="2021-08-20T11:49:58 CDT" name="verifyNewsAndEventsPageTitleTest" finished-at="2021-08-20T11:50:03 CDT" duration-ms="4172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewsAndEventsPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest@48f278eb]" started-at="2021-08-20T11:50:03 CDT" name="tearDown" finished-at="2021-08-20T11:50:03 CDT" duration-ms="752" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest -->
+      <class name="com.ref.amaxinsurance.winback.testcases.PageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ref.amaxinsurance.winback.testcases.PageTitleTest@66d3eec0]" started-at="2021-11-29T09:37:31 CST" name="setUp" finished-at="2021-11-29T09:37:34 CST" duration-ms="2694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pageTitleWinbackTest()[pri:0, instance:com.ref.amaxinsurance.winback.testcases.PageTitleTest@66d3eec0]" started-at="2021-11-29T09:37:34 CST" name="pageTitleWinbackTest" finished-at="2021-11-29T09:37:37 CST" duration-ms="3980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleWinbackTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ref.amaxinsurance.winback.testcases.PageTitleTest@66d3eec0]" started-at="2021-11-29T09:37:37 CST" name="tearDown" finished-at="2021-11-29T09:37:38 CST" duration-ms="639" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ref.amaxinsurance.winback.testcases.PageTitleTest@66d3eec0]" started-at="2021-08-20T11:48:08 CDT" name="setUp" finished-at="2021-08-20T11:48:11 CDT" duration-ms="2973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pageTitleWinbackTest()[pri:0, instance:com.ref.amaxinsurance.winback.testcases.PageTitleTest@66d3eec0]" started-at="2021-08-20T11:48:11 CDT" name="pageTitleWinbackTest" finished-at="2021-08-20T11:48:15 CDT" duration-ms="4358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleWinbackTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ref.amaxinsurance.winback.testcases.PageTitleTest@66d3eec0]" started-at="2021-08-20T11:48:15 CDT" name="tearDown" finished-at="2021-08-20T11:48:16 CDT" duration-ms="765" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ref.amaxinsurance.winback.testcases.PageTitleTest -->
+      <class name="com.amaxinsurance.testcases.ContactUsPageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.ContactUsPageTitleTest@28f2a10f]" started-at="2021-11-29T09:38:45 CST" name="setUp" finished-at="2021-11-29T09:38:49 CST" duration-ms="4788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactUsPageTitletest()[pri:0, instance:com.amaxinsurance.testcases.ContactUsPageTitleTest@28f2a10f]" started-at="2021-11-29T09:38:49 CST" name="verifyContactUsPageTitletest" finished-at="2021-11-29T09:38:50 CST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsPageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.ContactUsPageTitleTest@28f2a10f]" started-at="2021-11-29T09:38:50 CST" name="tearDown" finished-at="2021-11-29T09:38:51 CST" duration-ms="658" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.ContactUsPageTitleTest@73e22a3d]" started-at="2021-08-20T11:49:51 CDT" name="setUp" finished-at="2021-08-20T11:49:54 CDT" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactUsPageTitletest()[pri:0, instance:com.amaxinsurance.testcases.ContactUsPageTitleTest@73e22a3d]" started-at="2021-08-20T11:49:54 CDT" name="verifyContactUsPageTitletest" finished-at="2021-08-20T11:49:55 CDT" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsPageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.ContactUsPageTitleTest@73e22a3d]" started-at="2021-08-20T11:49:55 CDT" name="tearDown" finished-at="2021-08-20T11:49:56 CDT" duration-ms="800" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.ContactUsPageTitleTest -->
+      <class name="com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest@1da2cb77]" started-at="2021-11-29T09:40:52 CST" name="setUp" finished-at="2021-11-29T09:40:56 CST" duration-ms="4061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuretyBondQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest@1da2cb77]" started-at="2021-11-29T09:40:56 CST" name="verifySuretyBondQuotePageTitleTest" finished-at="2021-11-29T09:41:00 CST" duration-ms="4072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuretyBondQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest@1da2cb77]" started-at="2021-11-29T09:41:00 CST" name="tearDown" finished-at="2021-11-29T09:41:01 CST" duration-ms="670" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest@3f6b0be5]" started-at="2021-08-20T11:51:59 CDT" name="setUp" finished-at="2021-08-20T11:52:02 CDT" duration-ms="2946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuretyBondQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest@3f6b0be5]" started-at="2021-08-20T11:52:02 CDT" name="verifySuretyBondQuotePageTitleTest" finished-at="2021-08-20T11:52:07 CDT" duration-ms="4293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuretyBondQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest@3f6b0be5]" started-at="2021-08-20T11:52:07 CDT" name="tearDown" finished-at="2021-08-20T11:52:07 CDT" duration-ms="817" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest -->
+<<<<<<< HEAD
+      <class name="com.amaxinsurance.testcases.HomeownersQuotepageTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.HomeownersQuotepageTitleTest@4229bb3f]" started-at="2021-11-29T09:39:27 CST" name="setUp" finished-at="2021-11-29T09:39:31 CST" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomeownersQuotepageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.HomeownersQuotepageTitleTest@4229bb3f]" started-at="2021-11-29T09:39:31 CST" name="verifyHomeownersQuotepageTitleTest" finished-at="2021-11-29T09:39:35 CST" duration-ms="4046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeownersQuotepageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.HomeownersQuotepageTitleTest@4229bb3f]" started-at="2021-11-29T09:39:35 CST" name="tearDown" finished-at="2021-11-29T09:39:36 CST" duration-ms="660" status="PASS">
+=======
+      <class name="com.amaxinsurance.testcases.RVQuotePageTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.RVQuotePageTitleTest@6283d8b8]" started-at="2021-08-20T11:51:43 CDT" name="setUp" finished-at="2021-08-20T11:51:46 CDT" duration-ms="2909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRVQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.RVQuotePageTitleTest@6283d8b8]" started-at="2021-08-20T11:51:46 CDT" name="verifyRVQuotePageTitleTest" finished-at="2021-08-20T11:51:51 CDT" duration-ms="4181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRVQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.RVQuotePageTitleTest@6283d8b8]" started-at="2021-08-20T11:51:51 CDT" name="tearDown" finished-at="2021-08-20T11:51:51 CDT" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.RVQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.HomeownersQuotepageTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.HomeownersQuotepageTitleTest@6da21078]" started-at="2021-08-20T11:50:27 CDT" name="setUp" finished-at="2021-08-20T11:50:40 CDT" duration-ms="12897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomeownersQuotepageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.HomeownersQuotepageTitleTest@6da21078]" started-at="2021-08-20T11:50:40 CDT" name="verifyHomeownersQuotepageTitleTest" finished-at="2021-08-20T11:50:44 CDT" duration-ms="4293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeownersQuotepageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.HomeownersQuotepageTitleTest@6da21078]" started-at="2021-08-20T11:50:44 CDT" name="tearDown" finished-at="2021-08-20T11:50:45 CDT" duration-ms="768" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.HomeownersQuotepageTitleTest -->
+      <class name="com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest@50ad3bc1]" started-at="2021-11-29T09:35:33 CST" name="setUp" finished-at="2021-11-29T09:35:37 CST" duration-ms="4408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBoatsAndWCPageTitletest()[pri:0, instance:com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest@50ad3bc1]" started-at="2021-11-29T09:35:37 CST" name="verifyBoatsAndWCPageTitletest" finished-at="2021-11-29T09:35:41 CST" duration-ms="3953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoatsAndWCPageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest@50ad3bc1]" started-at="2021-11-29T09:35:41 CST" name="tearDown" finished-at="2021-11-29T09:35:42 CST" duration-ms="674" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest@6a84a97d]" started-at="2021-08-20T11:46:31 CDT" name="setUp" finished-at="2021-08-20T11:46:34 CDT" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBoatsAndWCPageTitletest()[pri:0, instance:com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest@6a84a97d]" started-at="2021-08-20T11:46:34 CDT" name="verifyBoatsAndWCPageTitletest" finished-at="2021-08-20T11:46:38 CDT" duration-ms="4211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoatsAndWCPageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest@6a84a97d]" started-at="2021-08-20T11:46:38 CDT" name="tearDown" finished-at="2021-08-20T11:46:39 CDT" duration-ms="825" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest -->
+<<<<<<< HEAD
+      <class name="com.amaxinsurance.testcases.RVQuotePageTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.RVQuotePageTitleTest@3f6b0be5]" started-at="2021-11-29T09:40:35 CST" name="setUp" finished-at="2021-11-29T09:40:39 CST" duration-ms="3438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRVQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.RVQuotePageTitleTest@3f6b0be5]" started-at="2021-11-29T09:40:39 CST" name="verifyRVQuotePageTitleTest" finished-at="2021-11-29T09:40:43 CST" duration-ms="4021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRVQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.RVQuotePageTitleTest@3f6b0be5]" started-at="2021-11-29T09:40:43 CST" name="tearDown" finished-at="2021-11-29T09:40:44 CST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.RVQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest@7fee8714]" started-at="2021-11-29T09:39:17 CST" name="setUp" finished-at="2021-11-29T09:39:22 CST" duration-ms="5551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyGeneralLiabilityQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest@7fee8714]" started-at="2021-11-29T09:39:22 CST" name="verifyGeneralLiabilityQuotePageTitleTest" finished-at="2021-11-29T09:39:27 CST" duration-ms="4299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGeneralLiabilityQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest@7fee8714]" started-at="2021-11-29T09:39:27 CST" name="tearDown" finished-at="2021-11-29T09:39:27 CST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest -->
+      <class name="com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest@6cd28fa7]" started-at="2021-11-29T09:36:01 CST" name="setUp" finished-at="2021-11-29T09:36:06 CST" duration-ms="4609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getQuoteWithDriversLicenseTest()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest@6cd28fa7]" started-at="2021-11-29T09:36:06 CST" name="getQuoteWithDriversLicenseTest" finished-at="2021-11-29T09:36:50 CST" duration-ms="44471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuoteWithDriversLicenseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest@6cd28fa7]" started-at="2021-11-29T09:36:50 CST" name="tearDown" finished-at="2021-11-29T09:36:51 CST" duration-ms="685" status="PASS">
+=======
+      <class name="com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest@f736069]" started-at="2021-08-20T11:50:19 CDT" name="setUp" finished-at="2021-08-20T11:50:22 CDT" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyGeneralLiabilityQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest@f736069]" started-at="2021-08-20T11:50:22 CDT" name="verifyGeneralLiabilityQuotePageTitleTest" finished-at="2021-08-20T11:50:26 CDT" duration-ms="3985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGeneralLiabilityQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest@f736069]" started-at="2021-08-20T11:50:26 CDT" name="tearDown" finished-at="2021-08-20T11:50:27 CDT" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest -->
+      <class name="com.licensing.amaxinsurance.testcases.VerifyLoginsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:25 CDT" name="setUp" finished-at="2021-08-20T11:48:29 CDT" duration-ms="3628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAgentTest()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:29 CDT" name="loginAgentTest" finished-at="2021-08-20T11:48:33 CDT" duration-ms="4209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAgentTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:33 CDT" name="tearDown" finished-at="2021-08-20T11:48:34 CDT" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:34 CDT" name="setUp" finished-at="2021-08-20T11:48:37 CDT" duration-ms="3176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginHRTest()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:37 CDT" name="loginHRTest" finished-at="2021-08-20T11:48:41 CDT" duration-ms="4455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHRTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:41 CDT" name="tearDown" finished-at="2021-08-20T11:48:42 CDT" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:42 CDT" name="setUp" finished-at="2021-08-20T11:48:45 CDT" duration-ms="3232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginLDTest()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:45 CDT" name="loginLDTest" finished-at="2021-08-20T11:48:50 CDT" duration-ms="4454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLDTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:50 CDT" name="tearDown" finished-at="2021-08-20T11:48:51 CDT" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:51 CDT" name="setUp" finished-at="2021-08-20T11:48:54 CDT" duration-ms="3101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSystemAdminTest()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:54 CDT" name="loginSystemAdminTest" finished-at="2021-08-20T11:48:58 CDT" duration-ms="4491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSystemAdminTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.licensing.amaxinsurance.testcases.VerifyLoginsTests@6cd28fa7]" started-at="2021-08-20T11:48:58 CDT" name="tearDown" finished-at="2021-08-20T11:48:59 CDT" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.licensing.amaxinsurance.testcases.VerifyLoginsTests -->
+      <class name="com.amaxinsurance.testcases.RentersQuotePageTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.RentersQuotePageTitleTest@22ef9844]" started-at="2021-08-20T11:51:36 CDT" name="setUp" finished-at="2021-08-20T11:51:39 CDT" duration-ms="2814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRentersQuotepageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.RentersQuotePageTitleTest@22ef9844]" started-at="2021-08-20T11:51:39 CDT" name="verifyRentersQuotepageTitleTest" finished-at="2021-08-20T11:51:43 CDT" duration-ms="4107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRentersQuotepageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.RentersQuotePageTitleTest@22ef9844]" started-at="2021-08-20T11:51:43 CDT" name="tearDown" finished-at="2021-08-20T11:51:43 CDT" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.RentersQuotePageTitleTest -->
+      <class name="com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest@5acf93bb]" started-at="2021-08-20T11:46:57 CDT" name="setUp" finished-at="2021-08-20T11:47:00 CDT" duration-ms="3180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getQuoteWithDriversLicenseTest()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest@5acf93bb]" started-at="2021-08-20T11:47:00 CDT" name="getQuoteWithDriversLicenseTest" finished-at="2021-08-20T11:47:45 CDT" duration-ms="45386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuoteWithDriversLicenseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest@5acf93bb]" started-at="2021-08-20T11:47:45 CDT" name="tearDown" finished-at="2021-08-20T11:47:46 CDT" duration-ms="807" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest -->
+<<<<<<< HEAD
+      <class name="com.amaxinsurance.testcases.RentersQuotePageTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.RentersQuotePageTitleTest@3b6ddd1d]" started-at="2021-11-29T09:40:27 CST" name="setUp" finished-at="2021-11-29T09:40:31 CST" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRentersQuotepageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.RentersQuotePageTitleTest@3b6ddd1d]" started-at="2021-11-29T09:40:31 CST" name="verifyRentersQuotepageTitleTest" finished-at="2021-11-29T09:40:35 CST" duration-ms="4283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRentersQuotepageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.RentersQuotePageTitleTest@3b6ddd1d]" started-at="2021-11-29T09:40:35 CST" name="tearDown" finished-at="2021-11-29T09:40:35 CST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.RentersQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.MotorcycleQuotePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.MotorcycleQuotePageTest@47987356]" started-at="2021-11-29T09:40:05 CST" name="setUp" finished-at="2021-11-29T09:40:09 CST" duration-ms="4157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMotorcyclePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.MotorcycleQuotePageTest@47987356]" started-at="2021-11-29T09:40:09 CST" name="verifyMotorcyclePageTitleTest" finished-at="2021-11-29T09:40:11 CST" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMotorcyclePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.MotorcycleQuotePageTest@47987356]" started-at="2021-11-29T09:40:11 CST" name="tearDown" finished-at="2021-11-29T09:40:12 CST" duration-ms="615" status="PASS">
+=======
+      <class name="com.amaxinsurance.testcases.MotorcycleQuotePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.MotorcycleQuotePageTest@35aea049]" started-at="2021-08-20T11:51:17 CDT" name="setUp" finished-at="2021-08-20T11:51:20 CDT" duration-ms="3148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMotorcyclePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.MotorcycleQuotePageTest@35aea049]" started-at="2021-08-20T11:51:20 CDT" name="verifyMotorcyclePageTitleTest" finished-at="2021-08-20T11:51:21 CDT" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMotorcyclePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.MotorcycleQuotePageTest@35aea049]" started-at="2021-08-20T11:51:21 CDT" name="tearDown" finished-at="2021-08-20T11:51:22 CDT" duration-ms="776" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.MotorcycleQuotePageTest -->
+      <class name="com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest@2f217633]" started-at="2021-11-29T09:37:56 CST" name="setUp" finished-at="2021-11-29T09:38:00 CST" duration-ms="3861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyfAQsPageTitletest()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest@2f217633]" started-at="2021-11-29T09:38:00 CST" name="verifyfAQsPageTitletest" finished-at="2021-11-29T09:38:05 CST" duration-ms="4433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfAQsPageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest@2f217633]" started-at="2021-11-29T09:38:05 CST" name="tearDown" finished-at="2021-11-29T09:38:05 CST" duration-ms="668" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest@1da2cb77]" started-at="2021-08-20T11:49:06 CDT" name="setUp" finished-at="2021-08-20T11:49:09 CDT" duration-ms="2604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyfAQsPageTitletest()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest@1da2cb77]" started-at="2021-08-20T11:49:09 CDT" name="verifyfAQsPageTitletest" finished-at="2021-08-20T11:49:13 CDT" duration-ms="3922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfAQsPageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest@1da2cb77]" started-at="2021-08-20T11:49:13 CDT" name="tearDown" finished-at="2021-08-20T11:49:15 CDT" duration-ms="1696" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest -->
+      <class name="com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest@4738a206]" started-at="2021-11-29T09:35:42 CST" name="setUp" finished-at="2021-11-29T09:35:45 CST" duration-ms="3302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getPageTitleTest()[pri:0, instance:com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest@4738a206]" started-at="2021-11-29T09:35:45 CST" name="getPageTitleTest" finished-at="2021-11-29T09:35:45 CST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest@4738a206]" started-at="2021-11-29T09:35:45 CST" name="tearDown" finished-at="2021-11-29T09:35:46 CST" duration-ms="621" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest@614ca7df]" started-at="2021-08-20T11:46:39 CDT" name="setUp" finished-at="2021-08-20T11:46:41 CDT" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getPageTitleTest()[pri:0, instance:com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest@614ca7df]" started-at="2021-08-20T11:46:41 CDT" name="getPageTitleTest" finished-at="2021-08-20T11:46:41 CDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest@614ca7df]" started-at="2021-08-20T11:46:41 CDT" name="tearDown" finished-at="2021-08-20T11:46:42 CDT" duration-ms="708" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest -->
+      <class name="com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@5acf93bb]" started-at="2021-11-29T09:36:51 CST" name="setUp" finished-at="2021-11-29T09:37:03 CST" duration-ms="12303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLiveDataUpAndRunningTest()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@5acf93bb]" started-at="2021-11-29T09:37:03 CST" name="verifyLiveDataUpAndRunningTest" finished-at="2021-11-29T09:37:13 CST" duration-ms="10182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLiveDataUpAndRunningTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@5acf93bb]" started-at="2021-11-29T09:37:13 CST" name="tearDown" finished-at="2021-11-29T09:37:14 CST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@5acf93bb]" started-at="2021-11-29T09:37:14 CST" name="setUp" finished-at="2021-11-29T09:37:27 CST" duration-ms="13327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogInTest()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@5acf93bb]" started-at="2021-11-29T09:37:27 CST" name="verifyLogInTest" finished-at="2021-11-29T09:37:30 CST" duration-ms="3043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@5acf93bb]" started-at="2021-11-29T09:37:30 CST" name="tearDown" finished-at="2021-11-29T09:37:31 CST" duration-ms="642" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@a530d0a]" started-at="2021-08-20T11:47:46 CDT" name="setUp" finished-at="2021-08-20T11:47:52 CDT" duration-ms="6157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLiveDataUpAndRunningTest()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@a530d0a]" started-at="2021-08-20T11:47:52 CDT" name="verifyLiveDataUpAndRunningTest" finished-at="2021-08-20T11:47:56 CDT" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLiveDataUpAndRunningTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@a530d0a]" started-at="2021-08-20T11:47:56 CDT" name="tearDown" finished-at="2021-08-20T11:47:56 CDT" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@a530d0a]" started-at="2021-08-20T11:47:56 CDT" name="setUp" finished-at="2021-08-20T11:48:04 CDT" duration-ms="7589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogInTest()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@a530d0a]" started-at="2021-08-20T11:48:04 CDT" name="verifyLogInTest" finished-at="2021-08-20T11:48:07 CDT" duration-ms="3054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest@a530d0a]" started-at="2021-08-20T11:48:07 CDT" name="tearDown" finished-at="2021-08-20T11:48:08 CDT" duration-ms="699" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest -->
+      <class name="com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest@22ef9844]" started-at="2021-11-29T09:40:12 CST" name="setUp" finished-at="2021-11-29T09:40:15 CST" duration-ms="3782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNotaryServicesQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest@22ef9844]" started-at="2021-11-29T09:40:15 CST" name="verifyNotaryServicesQuotePageTitleTest" finished-at="2021-11-29T09:40:19 CST" duration-ms="3844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNotaryServicesQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest@22ef9844]" started-at="2021-11-29T09:40:19 CST" name="tearDown" finished-at="2021-11-29T09:40:20 CST" duration-ms="662" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest@7205765b]" started-at="2021-08-20T11:51:22 CDT" name="setUp" finished-at="2021-08-20T11:51:25 CDT" duration-ms="2806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNotaryServicesQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest@7205765b]" started-at="2021-08-20T11:51:25 CDT" name="verifyNotaryServicesQuotePageTitleTest" finished-at="2021-08-20T11:51:29 CDT" duration-ms="4061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNotaryServicesQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest@7205765b]" started-at="2021-08-20T11:51:29 CDT" name="tearDown" finished-at="2021-08-20T11:51:31 CDT" duration-ms="1598" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest@47faa49c]" started-at="2021-11-29T09:37:47 CST" name="setUp" finished-at="2021-11-29T09:37:51 CST" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifycommAutoPageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest@47faa49c]" started-at="2021-11-29T09:37:51 CST" name="verifycommAutoPageTitleTest" finished-at="2021-11-29T09:37:56 CST" duration-ms="4305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycommAutoPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest@47faa49c]" started-at="2021-11-29T09:37:56 CST" name="tearDown" finished-at="2021-11-29T09:37:56 CST" duration-ms="651" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest@3232a28a]" started-at="2021-08-20T11:48:59 CDT" name="setUp" finished-at="2021-08-20T11:49:02 CDT" duration-ms="2702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifycommAutoPageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest@3232a28a]" started-at="2021-08-20T11:49:02 CDT" name="verifycommAutoPageTitleTest" finished-at="2021-08-20T11:49:06 CDT" duration-ms="4014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycommAutoPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest@3232a28a]" started-at="2021-08-20T11:49:06 CDT" name="tearDown" finished-at="2021-08-20T11:49:06 CDT" duration-ms="796" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest -->
+<<<<<<< HEAD
+      <class name="com.amaxinsurance.testcases.ReferralPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.ReferralPageTest@6283d8b8]" started-at="2021-11-29T09:40:20 CST" name="setUp" finished-at="2021-11-29T09:40:23 CST" duration-ms="3466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.ReferralPageTest@6283d8b8]" started-at="2021-11-29T09:40:23 CST" name="homePageTitleTest" finished-at="2021-11-29T09:40:26 CST" duration-ms="2879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.ReferralPageTest@6283d8b8]" started-at="2021-11-29T09:40:26 CST" name="tearDown" finished-at="2021-11-29T09:40:27 CST" duration-ms="652" status="PASS">
+=======
+      <class name="com.ilead.amaxinsurance.testcases.AgentLoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ilead.amaxinsurance.testcases.AgentLoginPageTest@4738a206]" started-at="2021-08-20T11:46:19 CDT" name="setUp" finished-at="2021-08-20T11:46:22 CDT" duration-ms="3254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyIleadAgentPageTitleTest()[pri:0, instance:com.ilead.amaxinsurance.testcases.AgentLoginPageTest@4738a206]" started-at="2021-08-20T11:46:22 CDT" name="verifyIleadAgentPageTitleTest" finished-at="2021-08-20T11:46:27 CDT" duration-ms="5392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIleadAgentPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ilead.amaxinsurance.testcases.AgentLoginPageTest@4738a206]" started-at="2021-08-20T11:46:27 CDT" name="tearDown" finished-at="2021-08-20T11:46:28 CDT" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ilead.amaxinsurance.testcases.AgentLoginPageTest@4738a206]" started-at="2021-08-20T11:46:28 CDT" name="setUp" finished-at="2021-08-20T11:46:31 CDT" duration-ms="2488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyIleadLoginPageTitleTest()[pri:0, instance:com.ilead.amaxinsurance.testcases.AgentLoginPageTest@4738a206]" started-at="2021-08-20T11:46:31 CDT" name="verifyIleadLoginPageTitleTest" finished-at="2021-08-20T11:46:31 CDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIleadLoginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ilead.amaxinsurance.testcases.AgentLoginPageTest@4738a206]" started-at="2021-08-20T11:46:31 CDT" name="tearDown" finished-at="2021-08-20T11:46:31 CDT" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ilead.amaxinsurance.testcases.AgentLoginPageTest -->
+      <class name="com.amaxinsurance.testcases.ReferralPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.ReferralPageTest@47987356]" started-at="2021-08-20T11:51:31 CDT" name="setUp" finished-at="2021-08-20T11:51:33 CDT" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.ReferralPageTest@47987356]" started-at="2021-08-20T11:51:33 CDT" name="homePageTitleTest" finished-at="2021-08-20T11:51:35 CDT" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.ReferralPageTest@47987356]" started-at="2021-08-20T11:51:35 CDT" name="tearDown" finished-at="2021-08-20T11:51:36 CDT" duration-ms="746" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.ReferralPageTest -->
+      <class name="com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest@7205765b]" started-at="2021-11-29T09:39:57 CST" name="setUp" finished-at="2021-11-29T09:40:00 CST" duration-ms="3711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMobileHomeQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest@7205765b]" started-at="2021-11-29T09:40:00 CST" name="verifyMobileHomeQuotePageTitleTest" finished-at="2021-11-29T09:40:05 CST" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobileHomeQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest@7205765b]" started-at="2021-11-29T09:40:05 CST" name="tearDown" finished-at="2021-11-29T09:40:05 CST" duration-ms="650" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest@169e6180]" started-at="2021-08-20T11:51:09 CDT" name="setUp" finished-at="2021-08-20T11:51:12 CDT" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMobileHomeQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest@169e6180]" started-at="2021-08-20T11:51:12 CDT" name="verifyMobileHomeQuotePageTitleTest" finished-at="2021-08-20T11:51:16 CDT" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobileHomeQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest@169e6180]" started-at="2021-08-20T11:51:16 CDT" name="tearDown" finished-at="2021-08-20T11:51:17 CDT" duration-ms="770" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest -->
+      <class name="com.quote.amaxinsurance.testcases.GetQuoteManuallyTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteManuallyTest@614ca7df]" started-at="2021-11-29T09:38:05 CST" name="setUp" finished-at="2021-11-29T09:38:09 CST" duration-ms="3392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getQuoteManuallyTest()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteManuallyTest@614ca7df]" started-at="2021-11-29T09:38:09 CST" name="getQuoteManuallyTest" finished-at="2021-11-29T09:38:44 CST" duration-ms="35077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuoteManuallyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteManuallyTest@614ca7df]" started-at="2021-11-29T09:38:44 CST" name="tearDown" finished-at="2021-11-29T09:38:45 CST" duration-ms="663" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteManuallyTest@7e7be63f]" started-at="2021-08-20T11:49:15 CDT" name="setUp" finished-at="2021-08-20T11:49:18 CDT" duration-ms="3185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getQuoteManuallyTest()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteManuallyTest@7e7be63f]" started-at="2021-08-20T11:49:18 CDT" name="getQuoteManuallyTest" finished-at="2021-08-20T11:49:50 CDT" duration-ms="32585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuoteManuallyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.quote.amaxinsurance.testcases.GetQuoteManuallyTest@7e7be63f]" started-at="2021-08-20T11:49:50 CDT" name="tearDown" finished-at="2021-08-20T11:49:51 CDT" duration-ms="787" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.quote.amaxinsurance.testcases.GetQuoteManuallyTest -->
+      <class name="com.amaxinsurance.testcases.Sr22QuotePageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.Sr22QuotePageTitleTest@611889f4]" started-at="2021-11-29T09:40:44 CST" name="setUp" finished-at="2021-11-29T09:40:48 CST" duration-ms="3929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySr22QuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.Sr22QuotePageTitleTest@611889f4]" started-at="2021-11-29T09:40:48 CST" name="verifySr22QuotePageTitleTest" finished-at="2021-11-29T09:40:51 CST" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySr22QuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.Sr22QuotePageTitleTest@611889f4]" started-at="2021-11-29T09:40:51 CST" name="tearDown" finished-at="2021-11-29T09:40:52 CST" duration-ms="652" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.Sr22QuotePageTitleTest@3b6ddd1d]" started-at="2021-08-20T11:51:51 CDT" name="setUp" finished-at="2021-08-20T11:51:54 CDT" duration-ms="3091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySr22QuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.Sr22QuotePageTitleTest@3b6ddd1d]" started-at="2021-08-20T11:51:54 CDT" name="verifySr22QuotePageTitleTest" finished-at="2021-08-20T11:51:58 CDT" duration-ms="4074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySr22QuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.Sr22QuotePageTitleTest@3b6ddd1d]" started-at="2021-08-20T11:51:58 CDT" name="tearDown" finished-at="2021-08-20T11:51:59 CDT" duration-ms="792" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.Sr22QuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest@48f278eb]" started-at="2021-11-29T09:35:46 CST" name="setUp" finished-at="2021-11-29T09:35:50 CST" duration-ms="4072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCarreersPageTitletest()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest@48f278eb]" started-at="2021-11-29T09:35:50 CST" name="verifyCarreersPageTitletest" finished-at="2021-11-29T09:36:00 CST" duration-ms="10415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarreersPageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest@48f278eb]" started-at="2021-11-29T09:36:00 CST" name="tearDown" finished-at="2021-11-29T09:36:01 CST" duration-ms="702" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest@611889f4]" started-at="2021-08-20T11:46:42 CDT" name="setUp" finished-at="2021-08-20T11:46:45 CDT" duration-ms="2762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCarreersPageTitletest()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest@611889f4]" started-at="2021-08-20T11:46:45 CDT" name="verifyCarreersPageTitletest" finished-at="2021-08-20T11:46:56 CDT" duration-ms="11019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarreersPageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest@611889f4]" started-at="2021-08-20T11:46:56 CDT" name="tearDown" finished-at="2021-08-20T11:46:57 CDT" duration-ms="800" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest -->
+      <class name="com.amaxinsurance.testcases.MakeAClaimPageTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.MakeAClaimPageTest@2fb3536e]" started-at="2021-11-29T09:39:36 CST" name="setUp" finished-at="2021-11-29T09:39:40 CST" duration-ms="4424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMakeAClaimPageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.MakeAClaimPageTest@2fb3536e]" started-at="2021-11-29T09:39:40 CST" name="verifyMakeAClaimPageTitleTest" finished-at="2021-11-29T09:39:41 CST" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMakeAClaimPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.MakeAClaimPageTest@2fb3536e]" started-at="2021-11-29T09:39:41 CST" name="tearDown" finished-at="2021-11-29T09:39:42 CST" duration-ms="629" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.MakeAClaimPageTest@2b91004a]" started-at="2021-08-20T11:50:45 CDT" name="setUp" finished-at="2021-08-20T11:50:47 CDT" duration-ms="2833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMakeAClaimPageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.MakeAClaimPageTest@2b91004a]" started-at="2021-08-20T11:50:47 CDT" name="verifyMakeAClaimPageTitleTest" finished-at="2021-08-20T11:50:48 CDT" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMakeAClaimPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.MakeAClaimPageTest@2b91004a]" started-at="2021-08-20T11:50:48 CDT" name="tearDown" finished-at="2021-08-20T11:50:49 CDT" duration-ms="715" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.MakeAClaimPageTest -->
+      <class name="com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest@1a18644]" started-at="2021-11-29T09:39:08 CST" name="setUp" finished-at="2021-11-29T09:39:12 CST" duration-ms="4071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOurCompanyPageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest@1a18644]" started-at="2021-11-29T09:39:12 CST" name="verifyOurCompanyPageTitleTest" finished-at="2021-11-29T09:39:16 CST" duration-ms="4031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOurCompanyPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest@1a18644]" started-at="2021-11-29T09:39:16 CST" name="tearDown" finished-at="2021-11-29T09:39:17 CST" duration-ms="671" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest@2f217633]" started-at="2021-08-20T11:50:10 CDT" name="setUp" finished-at="2021-08-20T11:50:13 CDT" duration-ms="2994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOurCompanyPageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest@2f217633]" started-at="2021-08-20T11:50:13 CDT" name="verifyOurCompanyPageTitleTest" finished-at="2021-08-20T11:50:17 CDT" duration-ms="4094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOurCompanyPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest@2f217633]" started-at="2021-08-20T11:50:17 CDT" name="tearDown" finished-at="2021-08-20T11:50:19 CDT" duration-ms="1262" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest -->
+      <class name="com.amaxinsurance.testcases.FindAnOfficePageTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.FindAnOfficePageTest@6da21078]" started-at="2021-11-29T09:39:00 CST" name="setUp" finished-at="2021-11-29T09:39:03 CST" duration-ms="3863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFindAnOfficeTitleTest()[pri:0, instance:com.amaxinsurance.testcases.FindAnOfficePageTest@6da21078]" started-at="2021-11-29T09:39:03 CST" name="verifyFindAnOfficeTitleTest" finished-at="2021-11-29T09:39:07 CST" duration-ms="3787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFindAnOfficeTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.FindAnOfficePageTest@6da21078]" started-at="2021-11-29T09:39:07 CST" name="tearDown" finished-at="2021-11-29T09:39:08 CST" duration-ms="635" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.FindAnOfficePageTest@28f2a10f]" started-at="2021-08-20T11:50:03 CDT" name="setUp" finished-at="2021-08-20T11:50:06 CDT" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFindAnOfficeTitleTest()[pri:0, instance:com.amaxinsurance.testcases.FindAnOfficePageTest@28f2a10f]" started-at="2021-08-20T11:50:06 CDT" name="verifyFindAnOfficeTitleTest" finished-at="2021-08-20T11:50:10 CDT" duration-ms="3619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFindAnOfficeTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.FindAnOfficePageTest@28f2a10f]" started-at="2021-08-20T11:50:10 CDT" name="tearDown" finished-at="2021-08-20T11:50:10 CDT" duration-ms="739" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.FindAnOfficePageTest -->
+      <class name="com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest@35aea049]" started-at="2021-11-29T09:39:47 CST" name="setUp" finished-at="2021-11-29T09:39:52 CST" duration-ms="4501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMexicoTouristQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest@35aea049]" started-at="2021-11-29T09:39:52 CST" name="verifyMexicoTouristQuotePageTitleTest" finished-at="2021-11-29T09:39:56 CST" duration-ms="4186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMexicoTouristQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest@35aea049]" started-at="2021-11-29T09:39:56 CST" name="tearDown" finished-at="2021-11-29T09:39:57 CST" duration-ms="648" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest@2fb3536e]" started-at="2021-08-20T11:50:54 CDT" name="setUp" finished-at="2021-08-20T11:50:57 CDT" duration-ms="2929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMexicoTouristQuotePageTitleTest()[pri:0, instance:com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest@2fb3536e]" started-at="2021-08-20T11:50:57 CDT" name="verifyMexicoTouristQuotePageTitleTest" finished-at="2021-08-20T11:51:09 CDT" duration-ms="12000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMexicoTouristQuotePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest@2fb3536e]" started-at="2021-08-20T11:51:09 CDT" name="tearDown" finished-at="2021-08-20T11:51:09 CDT" duration-ms="766" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest -->
+      <class name="com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest">
+<<<<<<< HEAD
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@7e7be63f]" started-at="2021-11-29T09:37:38 CST" name="setUp" finished-at="2021-11-29T09:37:40 CST" duration-ms="2032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkUnderWritingPageTitleTest()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@7e7be63f]" started-at="2021-11-29T09:37:40 CST" name="checkUnderWritingPageTitleTest" finished-at="2021-11-29T09:37:40 CST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUnderWritingPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@7e7be63f]" started-at="2021-11-29T09:37:40 CST" name="tearDown" finished-at="2021-11-29T09:37:41 CST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@7e7be63f]" started-at="2021-11-29T09:37:41 CST" name="setUp" finished-at="2021-11-29T09:37:43 CST" duration-ms="1948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginUnderWritingPortalTest()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@7e7be63f]" started-at="2021-11-29T09:37:43 CST" name="loginUnderWritingPortalTest" finished-at="2021-11-29T09:37:47 CST" duration-ms="3989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUnderWritingPortalTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@7e7be63f]" started-at="2021-11-29T09:37:47 CST" name="tearDown" finished-at="2021-11-29T09:37:47 CST" duration-ms="630" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@1a18644]" started-at="2021-08-20T11:48:16 CDT" name="setUp" finished-at="2021-08-20T11:48:17 CDT" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkUnderWritingPageTitleTest()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@1a18644]" started-at="2021-08-20T11:48:17 CDT" name="checkUnderWritingPageTitleTest" finished-at="2021-08-20T11:48:17 CDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUnderWritingPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@1a18644]" started-at="2021-08-20T11:48:17 CDT" name="tearDown" finished-at="2021-08-20T11:48:18 CDT" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@1a18644]" started-at="2021-08-20T11:48:18 CDT" name="setUp" finished-at="2021-08-20T11:48:20 CDT" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginUnderWritingPortalTest()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@1a18644]" started-at="2021-08-20T11:48:20 CDT" name="loginUnderWritingPortalTest" finished-at="2021-08-20T11:48:23 CDT" duration-ms="3740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUnderWritingPortalTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest@1a18644]" started-at="2021-08-20T11:48:23 CDT" name="tearDown" finished-at="2021-08-20T11:48:25 CDT" duration-ms="1588" status="PASS">
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest -->
+    </test> <!-- A-max WebApp Test Cases -->
+  </suite> <!-- A-max WebApp Autamated Test Suite -->
+</testng-results>

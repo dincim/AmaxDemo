@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [A-max WebApp Autamated Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.amaxinsurance.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="A-max WebApp Test Cases(failed)">
+    <classes>
+      <class name="com.ilead.amaxinsurance.testcases.AgentLoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyIleadLoginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="verifyIleadAgentPageTitleTest"/>
+        </methods>
+      </class> <!-- com.ilead.amaxinsurance.testcases.AgentLoginPageTest -->
+      <class name="com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest">
+        <methods>
+          <include name="checkUnderWritingPageTitleTest"/>
+          <include name="loginUnderWritingPortalTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest -->
+      <class name="com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyLiveDataUpAndRunningTest"/>
+          <include name="tearDown"/>
+          <include name="verifyLogInTest"/>
+        </methods>
+      </class> <!-- com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest -->
+      <class name="com.ref.amaxinsurance.winback.testcases.PageTitleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="pageTitleWinbackTest"/>
+        </methods>
+      </class> <!-- com.ref.amaxinsurance.winback.testcases.PageTitleTest -->
+      <class name="com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest">
+        <methods>
+          <include name="getPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest -->
+      <class name="com.licensing.amaxinsurance.testcases.VerifyLoginsTests">
+        <methods>
+          <include name="loginHRTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginAgentTest"/>
+          <include name="loginLDTest"/>
+          <include name="loginSystemAdminTest"/>
+        </methods>
+<<<<<<< HEAD
+      </class> <!-- com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest -->
+      <class name="com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyfAQsPageTitletest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.aboutamax.FAQsPageTitleTest -->
+      <class name="com.quote.amaxinsurance.testcases.GetQuoteManuallyTest">
+        <methods>
+          <include name="getQuoteManuallyTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.quote.amaxinsurance.testcases.GetQuoteManuallyTest -->
+      <class name="com.ilead.amaxinsurance.testcases.AgentLoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyIleadLoginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="verifyIleadAgentPageTitleTest"/>
+        </methods>
+      </class> <!-- com.ilead.amaxinsurance.testcases.AgentLoginPageTest -->
+      <class name="com.amaxinsurance.testcases.MakeAPaymentPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyMakeAPaymentPageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.MakeAPaymentPageTest -->
+      <class name="com.amaxinsurance.testcases.FindAnOfficePageTest">
+        <methods>
+          <include name="verifyFindAnOfficeTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.FindAnOfficePageTest -->
+      <class name="com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyNotaryServicesQuotePageTitleTest"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.NotaryServicesQuotePageTitleTest -->
+      <class name="com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest">
+        <methods>
+          <include name="checkUnderWritingPageTitleTest"/>
+          <include name="loginUnderWritingPortalTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.audit.amaxinsurance.testcases.UnderwritinPortalLogInTest -->
+      <class name="com.amaxinsurance.testcases.HomeownersQuotepageTitleTest">
+        <methods>
+          <include name="verifyHomeownersQuotepageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.HomeownersQuotepageTitleTest -->
+      <class name="com.amaxinsurance.testcases.RVQuotePageTitleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyRVQuotePageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.RVQuotePageTitleTest -->
+      <class name="com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyLiveDataUpAndRunningTest"/>
+          <include name="tearDown"/>
+          <include name="verifyLogInTest"/>
+        </methods>
+      </class> <!-- com.powerbi.amaxinsurance.testcases.MaxBiUpAndRunningTest -->
+      <class name="com.ref.amaxinsurance.winback.testcases.PageTitleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="pageTitleWinbackTest"/>
+        </methods>
+      </class> <!-- com.ref.amaxinsurance.winback.testcases.PageTitleTest -->
+      <class name="com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest">
+        <methods>
+          <include name="getPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amaxinc.web.budget.testcases.BudgetAndVarianceHomePageTest -->
+      <class name="com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyBoatsAndWCPageTitletest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.BoatsAndWatercraftQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyCarreersPageTitletest"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.aboutamax.CareersPageTitleTest -->
+      <class name="com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyGeneralLiabilityQuotePageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.GeneralLiabilityQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.ContactUsPageTitleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyContactUsPageTitletest"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.ContactUsPageTitleTest -->
+      <class name="com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyOurCompanyPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.aboutamax.OurCompanyPageTitleTest -->
+      <class name="com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest">
+        <methods>
+          <include name="verifyMexicoTouristQuotePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.MexicoTouristQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyNewsAndEventsPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.aboutamax.NewsAndEventsPageTitleTest -->
+      <class name="com.amaxinsurance.testcases.MotorcycleQuotePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyMotorcyclePageTitleTest"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.MotorcycleQuotePageTest -->
+      <class name="com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest">
+        <methods>
+          <include name="verifySuretyBondQuotePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.SuretyBondQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest">
+        <methods>
+          <include name="verifycommAutoPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.CommercialAutoQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.RentersQuotePageTitleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyRentersQuotepageTitleTest"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.RentersQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest">
+        <methods>
+          <include name="verifyMobileHomeQuotePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.MobileHomeQuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.Sr22QuotePageTitleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySr22QuotePageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.Sr22QuotePageTitleTest -->
+      <class name="com.amaxinsurance.testcases.ReferralPageTest">
+        <methods>
+          <include name="homePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.ReferralPageTest -->
+      <class name="com.licensing.amaxinsurance.testcases.VerifyLoginsTests">
+        <methods>
+          <include name="loginHRTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginAgentTest"/>
+          <include name="loginLDTest"/>
+          <include name="loginSystemAdminTest"/>
+        </methods>
+      </class> <!-- com.licensing.amaxinsurance.testcases.VerifyLoginsTests -->
+      <class name="com.amaxinsurance.testcases.MakeAClaimPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyMakeAClaimPageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amaxinsurance.testcases.MakeAClaimPageTest -->
+=======
+      </class> <!-- com.licensing.amaxinsurance.testcases.VerifyLoginsTests -->
+>>>>>>> 009d532fe0efe60492b80f78f6011945640b9d42
+    </classes>
+  </test> <!-- A-max WebApp Test Cases(failed) -->
+</suite> <!-- Failed suite [A-max WebApp Autamated Test Suite] -->

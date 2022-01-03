@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="A-max WebApp Autamated Test Suite" parallel="tests"
+	thread-count="2">
+	<!-- > parallel="methods" thread-count="10"> -->
+	
+	<listeners>
+		<listener class-name="com.amaxinsurance.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="A-max WebApp Test Cases">
+
+		<!--  <parameter name="url"
+			value="http://powerbi.amaxinsurance.com/" />
+		<parameter name="username" value="mdinc@amaxinsurance.com" />
+		<parameter name="password" value="mdinc2020!" />-->
+
+		 <packages>
+			<package name="com.amaxinsurance.testcases" />
+			<package name="com.amaxinsurance.testcases.aboutamax" />
+			<package name="com.powerbi.amaxinsurance.testcases" />
+			<package name="com.audit.amaxinsurance.testcases" />
+			<package name="com.quote.amaxinsurance.testcases" />
+			<!--  <package name="com.licensing.amaxinsurance.testcases" />-->
+			<package name="com.amaxinc.web.budget.testcases" />
+			<!--  <package name="com.ilead.amaxinsurance.testcases" />-->
+			<package name="com.ref.amaxinsurance.winback.testcases" />
+		</packages>
+
+	<!-- 	<classes>
+			<class name="com.amaxweb.testcases.MakeAPaymentPageTest" />
+			<class name="com.amaxweb.testcases.HomePageTest" />
+			<class name="maxbitestcases.MaxBiUpAndRunningTest" />
+			<class name="com.amaxweb.testcases.MotorcycleQuotePageTest" />
+			<class
+				name="com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest" />
+			<class
+				name="underwritingportaltestcases.UnderwritinPortalLogInTest" />
+			<class name="com.amaxweb.testcases.ReferralPageTest" />
+			<class
+				name="com.quote.amaxinsurance.testcases.GetQuoteManuallyTest" />
+			<class name="com.amaxweb.testcases.FindAnOfficePageTest" />
+		</classes>-->
+	</test>
+</suite>

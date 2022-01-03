@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [A-max WebApp Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="A-max WebApp Test Cases(failed)">
+    <parameter name="password" value="mdinc2020!"/>
+    <parameter name="url" value="http://powerbi.amaxinsurance.com/"/>
+    <parameter name="username" value="mdinc@amaxinsurance.com"/>
+    <classes>
+      <class name="com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getQuoteWithDriversLiceenseTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.quote.amaxinsurance.testcases.GetQuoteDriversLicenseInputTest -->
+      <class name="com.quote.amaxinsurance.testcases.GetQuoteManuallyTest">
+        <methods>
+          <include name="getQuoteManuallyTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.quote.amaxinsurance.testcases.GetQuoteManuallyTest -->
+    </classes>
+  </test> <!-- A-max WebApp Test Cases(failed) -->
+</suite> <!-- Failed suite [A-max WebApp Test Suite] -->
